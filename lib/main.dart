@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trogon_machine_test/widgets/bottom_nav.dart';
+import 'package:trogon_machine_test/view/widgets/bottom_nav.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,

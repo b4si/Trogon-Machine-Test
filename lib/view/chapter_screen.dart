@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
@@ -17,7 +19,6 @@ class _ChapterScreenState extends State<ChapterScreen> {
     _controller = VideoPlayerController.network(
       'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
     )..initialize().then((_) {
-        // Ensure the first frame is shown after the video is initialized
         setState(() {});
       });
   }

@@ -118,7 +118,12 @@ class BottomNavBarState extends State<BottomNavBarWidget> {
               iconList[index], labelList[index], isActive);
         },
         height: 65,
-        elevation: 50,
+        shadow: BoxShadow(
+          color: Colors.grey.shade400,
+          offset: const Offset(-1, -1),
+          blurRadius: 6,
+          spreadRadius: 0.5,
+        ),
         activeIndex: _selectedIndex,
         gapLocation: GapLocation.center,
         notchSmoothness: NotchSmoothness.verySmoothEdge,

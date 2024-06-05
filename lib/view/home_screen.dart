@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:trogon_machine_test/view/course_screen.dart';
-import 'package:trogon_machine_test/widgets/appbar_container.dart';
-import 'package:trogon_machine_test/widgets/main_container.dart';
+import 'package:trogon_machine_test/view/widgets/appbar_container.dart';
+import 'package:trogon_machine_test/view/widgets/main_container.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
